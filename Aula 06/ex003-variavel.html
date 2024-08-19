@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo em Javascript</title>
+    <style>
+        body{
+            background-color: aqua; /*Comentario em CSS*/
+            color: azure;
+            font-size: large;
+        }
+        h1{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo !</h1> <!--Comentario em HTML-->
+    <p>Me livrei da maldição !! </p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) // o window.prompt me retorna uma "string"
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2 // temos que converter o tipo
+        // parse = coverter
+        // Number.parseInt(n) - para números inteiros
+        // Number.parseFloat(n) - para números decimais 
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        // 'Eu estou aprendendo s' - não faz interpalação
+        // ("Eu estou aprendendo" + s) ou ('Eu estou aprendendo' + s)- usa concatenação
+        // (`Eu estou aprendendo ${s}) - usa tempalte string
+        // se fosse para converter em 'string' ficaria que nem abaixo:
+        // window.alert('A soma dos valores é' + String(s)) 
+        // ou 
+        // window.alert('A soma dos valores é' + s.toString())
+        // (number + number) para adição
+        // (string + string) para concatenação 
+    </script>
+    
+</body>
+</html>
