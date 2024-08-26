@@ -2,6 +2,14 @@ body{
     background: rgb(167, 167, 233);
     font: normal 15pt Arial;
 }
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45pc;
+    box-shadow: 5px 5px 10px rgba(39, 36, 36, 0.350);
+    }
 header{
     color: white;
     text-align: center;
