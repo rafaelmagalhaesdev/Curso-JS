@@ -9,7 +9,7 @@ function contar(){
         res.innerHTML = 'Impossível contar!'
     } else {
         res.innerHTML = 'Contando: '
-        let i = Number(ini.value)
+        let i = Number(ini.value) //Colocando a variavel + valor 
         let f = Number(fim.value)
         let p = Number(passo.value)
         if (p <= 0) {
@@ -22,7 +22,7 @@ function contar(){
                 res.innerHTML += `${c} \u{1f449}`
             }
         } else{
-            //cContagem regressiva
+            //Contagem regressiva
             for(let c = i; c >= f; c -= p){
                 res.innerHTML += `${c} \u{1F449}`
             }
